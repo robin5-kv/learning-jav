@@ -46,6 +46,7 @@ public class test9 {
 		al.set(1, null);
 		System.out.println(al);
 		
+		
 	}
 
 }

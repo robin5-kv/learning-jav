@@ -34,6 +34,7 @@ public class test12 {
 		t12.newname();
 		
 		
+		
 	}
 
 }

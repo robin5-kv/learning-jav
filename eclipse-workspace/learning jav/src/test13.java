@@ -16,7 +16,10 @@ public class test13 {
 		hs.put(1, "robin");
 		hs.put(2, "Vibiin");
 		hs.put(3, "pappa");
+		
+		
 		hs.put(4, "Mummy");
+		hs.put(6, "ather");
 		System.out.println(hs);//printing the data by adding and key and value 
 		HashMap<Integer, String> hss =new HashMap<Integer, String>();
 		
@@ -29,10 +32,16 @@ public class test13 {
 		System.out.println("After removed the data"+hs);
 		System.out.println(hs.replace(2, "null"));
 		System.out.println("After changed the data"+hs);
+		
+		
 	}
 	public static void main(String[] args) {
 		test13 t13=new test13();
 		t13.tnt();
+		
+		String s ="Mummy";
+		System.out.println(s.hashCode());
+		
 	}
 
 }

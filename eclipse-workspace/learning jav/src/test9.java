@@ -19,15 +19,15 @@ public class test9 {
 		// al.clear();
 		System.out.println(al.get(1));
 		for (String string : al) {
-			System.out.println("Executed through for each loop"+string);
+			System.out.println("Executed through for each loop" + string);
 
 		}
 		System.out.println("-------------------------------");
 		try {
 
-			Iterator<String> all = al.iterator();
-			while (all.hasNext()) {
-				String string = (String) all.next();
+			Iterator<String> iteratorall  = al.iterator();
+			while (iteratorall.hasNext()) {
+				String string = (String) iteratorall.next();
 				System.out.println(string);
 
 			}
@@ -45,8 +45,7 @@ public class test9 {
 
 		al.set(1, null);
 		System.out.println(al);
-		
-		
+
 	}
 
 }

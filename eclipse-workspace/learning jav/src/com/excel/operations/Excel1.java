@@ -17,7 +17,7 @@ public class Excel1 {
 		XSSFWorkbook Workbook = new XSSFWorkbook(fis);
 		XSSFSheet sh = Workbook.getSheetAt(0);
 		// to get row count
-		int numrows = sh.getLastRowNum();
+		int numrows = sh.getLastRowNum()+1;
 		System.out.println("the number of rows in the execel is =" + numrows);
 		// to get cell count
 		int cellcount = sh.getRow(1).getLastCellNum();
@@ -33,6 +33,7 @@ public class Excel1 {
 				case STRING :System.out.print(cell.getStringCellValue());break;
 				case BOOLEAN :System.out.print(cell.getBooleanCellValue()); break;	
 				case NUMERIC :	System.out.print(cell.getNumericCellValue()); break;
+				
 
 				default:
 					
@@ -46,4 +47,5 @@ public class Excel1 {
 
 	}
 
+	
 }

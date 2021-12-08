@@ -29,7 +29,6 @@ public class test10 {
 
 
 
-*/
 
 	public void ex() {
 		HashSet<String> hs = new HashSet<String>();

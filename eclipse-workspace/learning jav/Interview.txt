@@ -1,0 +1,24 @@
+Integer Caching : It is the Number range b/w -128 to 127 if equals the value it will display the number equal other
+wise the it will throw Not equal.
+
+Num1 =100;
+num2 =100;
+ if ( num1==num2)
+ equal                    
+ else 
+ not equal  
+ 
+ 
+ case  
+ 1)num1 and num2= 100 equal 
+ 2) num1 and num2 =212 Not equal 
+ 
+ How to Print the without semicolon hi world
+ 
+ if (system.out.printf("hi")==null)
+ 
+ Pass Null Arugument for object and string
+ 
+ public void def(object  a)
+ sopln(hi)
+ 

@@ -10,10 +10,19 @@ public class Loopingnumbers {
 		System.out.println("enter a number");
 		Scanner sc = new Scanner(System.in);
 		num = sc.nextInt();
-		for(int row=0;row<num;row++)
+		for(int row=1;row<=num;row++)
 		{
 		
-			for(int col =0;col<=row;col++)
+			for(int col =1;col<row;col++)
+			{
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+		
+		for (int row =1;row<=num; row++) 
+		{
+			for(int col =5;col>=row;col--) 
 			{
 				System.out.print("*");
 			}

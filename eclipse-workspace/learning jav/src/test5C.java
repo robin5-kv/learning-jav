@@ -5,13 +5,11 @@ public class test5C implements test5I
 	
 	
 
-	@Override
 	public void test123() {
 		System.out.println("all is well");
 		
 	}
 
-	@Override
 	public int test1231() {
 	System.out.println(1);
 		return 1;

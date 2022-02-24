@@ -55,7 +55,9 @@ public class test12 {
 	public static void main(String[] args) {
 		test12 t12 = new test12();
 		t12.newname();
-
+		
+		
+		
 	}
 
 }

@@ -34,7 +34,8 @@ public class test2 {
 	{
 		test2 t2 =new test2();
 		t2.display();
-		t2.value(1, 2, 3, 'a',"s");
+
+		t2.display();
 		
 		
 		// Below print statment is done by creating the variables as static//

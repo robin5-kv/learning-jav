@@ -8,7 +8,7 @@ public class test13 {
 		 * It will not allow duplicate keys
 		 *It is defined by keys and values 
 		 *Values can be duplicated
-		 * 
+		 * The only differnece b/w hash map and linked hash map is Linked hash map will maintain order.
 		 * 
 		 * 
 		 */

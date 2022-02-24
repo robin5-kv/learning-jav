@@ -14,12 +14,12 @@ public class test2 {
 		this.c=c;
 		this.d=d;
 		this.e=e;	
-/* Below print statment is added in same method for this we have to do 	specfiy the parameter in method it self
+ //Below print statment is added in same method for this we have to do 	specfiy the parameter in method it self
 		System.out.println(a);
 		System.out.println(b);
 		System.out.println(c);
 		System.out.println(d);
-		System.out.println(e);*/
+		System.out.println(e);
 	}
 	public void display() {
 
@@ -34,6 +34,7 @@ public class test2 {
 	{
 		test2 t2 =new test2();
 		t2.display();
+
 		t2.display();
 		
 		
